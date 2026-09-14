@@ -1,5 +1,10 @@
-import 'package:lab2_todo_ulianov/lab2_todo_ulianov.dart' as lab2_todo_ulianov;
+import 'package:lab2_todo_ulianov/todo.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${lab2_todo_ulianov.calculate()}!');
+void main() {
+  Todo task_1 = Todo(id : 1, title :'купить продукты');
+  Todo task_2 = Todo(id : 2, title :'сделать зарядку');
+  task_1.complete();
+  print(task_id);
+  print(task.isDone);
+  print(task.title);
 }
